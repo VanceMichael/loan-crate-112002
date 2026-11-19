@@ -1,0 +1,62 @@
+[
+  {
+    "record": "carrier-1",
+    "availableFrom": 1,
+    "kind": "packing",
+    "payload": {
+      "caseSeal": "SE01",
+      "route": "M7",
+      "site": "山馆",
+      "version": 1,
+      "parts": [
+        "K1",
+        "P2"
+      ],
+      "inner": {
+        "P2": "I8"
+      }
+    }
+  },
+  {
+    "record": "carrier-2",
+    "availableFrom": 1,
+    "kind": "packing",
+    "payload": {
+      "caseSeal": "SE02",
+      "route": "M7",
+      "site": "山馆",
+      "version": 1,
+      "parts": [
+        "K2"
+      ]
+    }
+  },
+  {
+    "record": "carrier-3",
+    "availableFrom": 1,
+    "kind": "arrival",
+    "payload": {
+      "caseSeal": "SE01",
+      "site": "山馆",
+      "time": "10:12",
+      "seal": "完整"
+    }
+  },
+  {
+    "record": "carrier-4",
+    "availableFrom": 3,
+    "kind": "repack",
+    "payload": {
+      "parent": "SE01",
+      "caseSeal": "SE05",
+      "site": "谷馆",
+      "version": 2,
+      "mode": "重新分装",
+      "parts": [
+        "K1",
+        "P3"
+      ],
+      "time": "11:40"
+    }
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "record": "origin-1",
+    "availableFrom": 1,
+    "kind": "work",
+    "payload": {
+      "workId": "W-J",
+      "parts": [
+        "K1",
+        "K2"
+      ]
+    }
+  },
+  {
+    "record": "origin-2",
+    "availableFrom": 1,
+    "kind": "work",
+    "payload": {
+      "workId": "W-P",
+      "parts": [
+        "P2",
+        "P3"
+      ]
+    }
+  },
+  {
+    "record": "origin-3",
+    "availableFrom": 1,
+    "kind": "permit",
+    "payload": {
+      "site": "山馆",
+      "parts": [
+        "K1",
+        "K2"
+      ],
+      "scope": [
+        "开封",
+        "点验",
+        "安装"
+      ],
+      "closedTransfer": [
+        "I8"
+      ]
+    }
+  },
+  {
+    "record": "origin-4",
+    "availableFrom": 2,
+    "kind": "permit",
+    "payload": {
+      "site": "谷馆",
+      "parts": [
+        "K1"
+      ],
+      "scope": [
+        "点验"
+      ],
+      "closedTransfer": []
+    }
+  }
+]

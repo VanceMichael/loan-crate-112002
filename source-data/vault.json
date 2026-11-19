@@ -1,0 +1,40 @@
+[
+  {
+    "record": "vault-1",
+    "availableFrom": 1,
+    "kind": "handoff",
+    "payload": {
+      "receipt": "H2",
+      "caseSeal": "SE01",
+      "manifest": 1,
+      "site": "山馆",
+      "time": "10:20"
+    }
+  },
+  {
+    "record": "vault-2",
+    "availableFrom": 2,
+    "kind": "inspect",
+    "payload": {
+      "receipt": "H5",
+      "caseSeal": "SE05",
+      "part": "K1",
+      "site": "谷馆",
+      "time": "12:10",
+      "photo": "IMG-A5"
+    }
+  },
+  {
+    "record": "vault-3",
+    "availableFrom": 3,
+    "kind": "inspect",
+    "payload": {
+      "receipt": "H6",
+      "caseSeal": "SE05",
+      "part": "P3",
+      "site": "谷馆",
+      "time": "12:11",
+      "photo": "IMG-A6"
+    }
+  }
+]

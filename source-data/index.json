@@ -1,0 +1,11 @@
+{
+  "sources": [
+    "carrier",
+    "origin",
+    "vault"
+  ],
+  "stages": 4,
+  "originals": [],
+  "originalStages": {},
+  "digests": {}
+}
